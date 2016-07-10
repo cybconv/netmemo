@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-X-COMMENT: This software is provided in the hope to be useful
-Sealed: true
-Name: net/sf/netmemo/
-Class-Path: lib/jnetparse.jar net/
-Created-By: 1.8.0_66 (Oracle Corporation)
-Main-Class: net.sf.netmemo.Launcher
-SplashScreen-Image: images/netmemo-u-015.png
-
