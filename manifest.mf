@@ -1,0 +1,6 @@
+X-COMMENT: This software is provided in the hope to be useful
+Class-Path: lib/jnetparse.jar net/
+Main-Class: net.sf.netmemo.Launcher
+SplashScreen-Image: images/netmemo-u-015.png
+Name: net/sf/netmemo/
+Sealed: true

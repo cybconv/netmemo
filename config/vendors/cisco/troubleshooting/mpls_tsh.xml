@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<procedure>
+	<step id="0">
+		<cmd>
+			show ip protocols
+		</cmd>
+		<desc>
+		</desc>
+	</step>
+	<step id="1">
+		<cmd>
+			show mpls interfaces
+		</cmd>
+		<desc>
+		</desc>
+	</step>
+	<step id="2">
+		<cmd>
+			show ip route
+		</cmd>
+		<desc>
+		</desc>
+	</step>
+	<step id="3">
+		<cmd>
+			show ip cef [summary | interface]
+		</cmd>
+		<desc>
+		</desc>
+	</step>
+	<step id="4">
+		<cmd>
+			show mpls interfaces
+		</cmd>
+		<desc>
+		</desc>
+	</step>
+	<step id="5">
+		<cmd>
+			show tag-switching tdp discovery
+		</cmd>
+		<desc>
+		</desc>
+	</step>
+	<step id="6">
+		<cmd>
+			show tag-switching tdp bindings
+		</cmd>
+		<desc>
+		</desc>
+	</step>
+	<step id="7">
+		<cmd>
+			show tag-switching forwarding-table {ip address | prefix} detail
+		</cmd>
+		<desc></desc>
+	</step>
+	<step id="8">
+		<cmd>
+			debug mpls packet
+		</cmd>
+		<desc>
+			combine with MPLS-aware traceroutes
+		</desc>
+	</step>
+</procedure>

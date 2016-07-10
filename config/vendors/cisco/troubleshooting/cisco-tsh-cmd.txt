@@ -1,0 +1,62 @@
+--
+-- Layer 2
+--
+show interface status
+show arp
+show mac-address-table dynamic address 0011.2031.4461
+show interface trunk
+show interface fa0/6 trunk
+show interface fa0/13 switchport
+show interface fa0/16 pruning
+show vtp status
+show vlan brief
+show etherchannel summary
+show spanning-tree vlan 10
+
+--
+-- FR
+--
+show frame-relay pvc 101
+show frame-relay map
+
+debug frame-relay packet
+
+--
+-- IP Routing
+--
+ping 1.1.1.1
+show arp
+show ip interface brief
+show backup
+show ip sla monitor statistics
+show track 1
+show cdp neighbors
+show ip route 172.16.0.9
+
+debug ip packet detail <ACL>
+
+--
+-- RIP
+--
+show ip route rip
+show key chain
+show ip protocols
+
+--
+-- OSPF
+--
+show ip ospf neighbor
+show ip ospf interface [brief]
+show ip ospf database
+show ip ospf database router <router-id>
+show ip ospf database network <network>
+
+HIDDEN:
+show ip ospf route
+
+--
+-- BGP
+--
+show commands are expressed as: "show bgp [AFI] [SAFI [args]"
+show bgp ipv4 unicast summary
+	-> produces the same output as: "show ip bgp summary"
