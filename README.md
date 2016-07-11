@@ -1,8 +1,9 @@
 # netmemo
 
 Provides useful tips for Network & System administrators, to learners and also to curious folks :)
-NetMemo uses a library called "jnetparse" and to packqge NetMemo with all its dependencies within 
-a single JAR I used an open source product called "OneJar" (see: http://one-jar.sourceforge.net/).
+NetMemo uses a library called "jnetparse" (see: https://github.com/cybconv/jnetparse) and to package 
+NetMemo with all its dependencies within a single JAR I used an open source product called 
+"OneJar" (see: http://one-jar.sourceforge.net/).
 
 To rebuild NetMemo (on Windows):
  - Install and launch Git Bash
